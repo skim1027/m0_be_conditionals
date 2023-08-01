@@ -60,23 +60,23 @@ puts
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This command is evaluating the conditional statement using the comparison operator. The line of code is checking if number 4 is less than number 9, which is a true statement and is evaluated to be true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Same as above, this line of code is checking if 4 is less than the value assigned to variable books (3), which it is a false statement and is evaluated as false.   
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This line of code is checking if the value assigend to variable friends (6) is greater than value assigned to variable siblings (2), which is a true statement and is evaluated as true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: This line of code is checking to see if the value assigned to variable attenddes (9) is not equal to the value assgined to meals (8), which is a true statement and is evaluated as true.
 
-
+puts
 #-------------------
 # PART 3: Logical Operators
 #-------------------
