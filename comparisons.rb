@@ -94,6 +94,7 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
+is_puppy = true
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
@@ -106,7 +107,7 @@ puts loves_to_play && loves_dog_park
 puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-puts loves_to_play && puppy
+puts loves_to_play && is_puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: The final line of code did not evaluate, and provided name error when ran in terminal.  We have the age assigned to 1, however, we did not assign a variable puppy. Therefore, this is not a valid comparison.
+# ANSWER: The final line of code evaluated to a true statement. I created a new variable is_puppy to be true as the age of the puppy is 1. Since the dog loves to play AND is a puppy, the condition evaluated as true.
