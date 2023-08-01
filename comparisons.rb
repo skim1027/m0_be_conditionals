@@ -89,7 +89,7 @@ finished_homework = false
 puts is_hungry && finished_homework
 # Determine if the user is hungry or has completed their homework
 puts is_hungry || finished_homework
-
+puts
 loves_to_play = true
 loves_dog_park = false
 loves_treats = true
@@ -97,15 +97,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The final line of code did not evaluate, and provided name error when ran in terminal.  We have the age assigned to 1, however, we did not assign a variable puppy. Therefore, this is not a valid comparison.
